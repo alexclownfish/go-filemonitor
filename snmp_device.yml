@@ -1,0 +1,35 @@
+[
+    {
+        "labels": {
+            "brand": "DP-WAFNFV",
+            "hostname": "pbr-dev-waf-backup",
+            "mib": "if_mib",
+            "model": "zdyNB"
+        },
+        "targets": [
+            "192.168.11.5425"
+        ]
+    },
+    {
+        "labels": {
+            "brand": "DP-WAFNFV",
+            "hostname": "pbr-dev-waf-backup",
+            "mib": "if_mib",
+            "model": "zdyNB"
+        },
+        "targets": [
+            "192.168.11.5425"
+        ]
+    },
+    {
+        "labels": {
+            "brand": "DP-WAFNFV",
+            "hostname": "pbr-dev-waf-backup",
+            "mib": "if_mib",
+            "model": "zdyNB"
+        },
+        "targets": [
+            "192.168.11.5425"
+        ]
+    }
+]
