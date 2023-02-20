@@ -12,7 +12,7 @@ curl -X POST "http://192.168.11.58:21805/sd_file/add" -H "Content-Type: applicat
 [root@prometheus conf]# cat snmp_device.yml 
 [{"labels":{"mib":"if_mib","brand":"DP-FW1000","hostname":"pbr-dev-ngfw-master","model":"zdyNB"},"targets":["192.168.11.36"]},{"labels":{"mib":"if_mib","brand":"DP-FW1000","hostname":"pbr-dev-ngfw-backup","model":"zdyNB"},"targets":["192.168.11.38"]},{"labels":{"mib":"if_mib","brand":"DP-WAFNFV","hostname":"pbr-dev-waf-backup","model":"zdyNB"},"targets":["192.168.11.40"]},{"labels":{"mib":"if_mib","brand":"DP-WAFNFV","hostname":"pbr-dev-waf-backup","model":"zdyNB"},"targets":["192.168.11.42"]}]
 ```
-## 代码
+
 ```go
 package main
 
