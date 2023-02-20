@@ -1,3 +1,4 @@
+##实现
 通过go "encoding/json" 将收到的json数据json.Marshal(data)到文件中，每次调用写入内容通过”，“隔开，最终文件内呈现一个数组对象
 ## 命令行调用格式化文件
 ```bash
